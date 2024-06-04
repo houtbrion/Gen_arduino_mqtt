@@ -36,19 +36,9 @@ GUI用とyaml用のライブラリとして3つのライブラリをインスト
 
 - PyYaml https://pypi.org/project/PyYAML/
 - flet https://pypi.org/project/flet/
-- flet_multi_page https://github.com/SKbarbon/flet_multi_page
 
 ``pip``を利用している人は，各ライブラリのURLを見てインストールしてください．
 
-
-
-
-## 3. 注意事項 : 各プログラムの実行可能バイナリ化
-Pythonには，「``pyinstaller``」と呼ばれるプログラムで，Pythonのプログラム(スクリプト)を
-実行可能なバイナリに変換することができます．
-
-ただし，本開発環境のプログラムでは，ヘルプ画面の出力に利用しているPythonライブラリ「``flet_multi_page``」が実行可能なバイナリに
-変換できない(変換すると動作がおかしくなる)ため，``pyinstaller``で実行可能なバイナリに変換することはできません．
 
 
 ***
